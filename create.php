@@ -1,9 +1,6 @@
 <?php
 /*PETERS WORK u14056136*/
-$username   = "root";
-$password   = "";
-$servername = "localhost";
-$conn       = new mysqli($servername, $username, $password, "320");
+include "connect.php";
 
 if ($conn->connect_error) { die("Connection failed: " . $conn->connect_error); } 
 

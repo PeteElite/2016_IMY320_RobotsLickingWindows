@@ -1,11 +1,7 @@
 <?php
 //PETERS EVENT PAGE
 $ID =  $_GET["ID"];
-
-$username   = "root";
-$password   = "";
-$hostname = "localhost";
-$databaseName = "320";
+include  "connect.php";
 
 $connect = mysqli_connect($hostname, $username, $password, $databaseName);
 

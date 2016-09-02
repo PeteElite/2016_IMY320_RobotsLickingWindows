@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php session_start(); ?>
 <!-- GREGS CALENDAR 14039712 -->
 <html>
 <head>
@@ -24,14 +25,12 @@
   
   <title>CLNDR.js</title>
 <?php 
-  		$username   = "root";
-		$password   = "";
-		$servername = "localhost";
-		$conn       = new mysqli($servername, $username, $password, "320");
+$title = $_SESSION["Title"];
+  		include  "connect.php";
 
 		if ($conn->connect_error) { die("Connection failed: " . $conn->connect_error); } 
 
-		$sql       = "SELECT * FROM Events ORDER BY Date";
+		$sql       = "SELECT * FROM Events WHERE Title = '$title' ORDER BY Date";
 		$result    = $conn->query($sql);
 		$dates     = array();
 		$ids       = array();
@@ -91,8 +90,8 @@ $( function() {
 	<a href="about.php">About Us</span></a>
 	<a href="contact.php">Contact Us</span></a>
 	<?php
-		session_start();
-		if (isset($_SESSION["username"]))
+		
+		  if (isset($_SESSION["username"]))
 		{
 		
 			echo '<a href="files.php"> files</span></a>';

@@ -2,6 +2,6 @@
 	$servername = "localhost";
 	$username = "root";
 	$password = "";
-	$db = "imy320";
+	$db = "320";
 	$conn = new mysqli($servername, $username, $password,$db);
 ?>
