@@ -49,13 +49,14 @@
   <div class="top-bar-right" >
     <ul class="menu" data-responsive-menu="drilldown medium-dropdown" style = "background-color:black">
      	<li><a href="index.php"><span style = "color: white">Home</span></a></li>
+	<li><a href="news.php"><span style = "color: white">News</span></a></li>
 	<li ><a href="about.php"><span style = "color: white">About Us</span></a></li>
 	<li><a href="contact.php"><span style = "color: white">Contact Us</span></a></li>
 	<?php
 		session_start();
 		if (isset($_SESSION["username"]))
 		{
-			echo '<li><a href="files.php"> <span style = "color:white">Files</span></a></li>';
+			echo '<li><a href="files.php"> <span style = "color: #0277BD;font-weight: bold;">Files</span></a></li>';
 			echo '<li><a href="Calender.php"> <span style = "color:white">Calendar</span></a></li>';
 			echo '<li><a href="logout.php"> <span style = "color:white">Logout</span></a></li>';
 		}
@@ -73,7 +74,7 @@
 
 
 	$files2 = scandir('Documents/all', 1);
-	$myOutput = "<div style='width:40%;border: solid 1px black;Margin:10px;padding:10px'> <h2> Files to download </h2>";
+	$myOutput = "<div style='width:100%;border: solid 1px black;margin-top:2px;padding:10px;'> <span style='font-size: 30px;'><h2> Files to download: </h2> </span>";
 	for ( $a=0; $a < count($files2); $a++)
 	{
 		$temp = $files2[$a];

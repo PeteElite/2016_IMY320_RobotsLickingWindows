@@ -11,7 +11,7 @@
 	
 	if (strcmp($conf,$pass) == 0)
 	{
-		if ($result = mysqli_prepare($conn, "SELECT * FROM users WHERE Username = ?")) 
+		if ($result = mysqli_prepare($conn, "SELECT * FROM users WHERE Username = ? ")) 
 		{
 			mysqli_stmt_bind_param($result, "s", $Username);
 			$Username = $name;
@@ -24,8 +24,7 @@
 				die();
 			}
 		}
-
-		if ($result = mysqli_prepare($conn, "SELECT * FROM users WHERE `Email` = ?")) 
+		if ($result = mysqli_prepare($conn, "SELECT * FROM users WHERE Email = ? ")) 
 		{
 			mysqli_stmt_bind_param($result, "s", $Email);
 

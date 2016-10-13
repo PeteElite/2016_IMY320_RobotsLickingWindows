@@ -53,12 +53,13 @@ google.maps.event.addDomListener(window, 'load', initialize);
   <div class="top-bar-right" >
     <ul class="menu" data-responsive-menu="drilldown medium-dropdown" style = "background-color:black">
      	<li><a href="index.php"><span style = "color: white">Home</span></a></li>
+	<li><a href="news.php"><span style = "color: white">News</span></a></li>
 	<li ><a href="about.php"><span style = "color: white">About Us</span></a></li>
-	<li><a href="contact.php"><span style = "color: white">Contact Us</span></a></li>
+	<li><a href="contact.php"><span style = "color: #0277BD;font-weight: bold;">Contact Us</span></a></li>
 	<?php
 		session_start();
 		if (!isset($_SESSION["username"]))
-			echo '<li><a data-open= "exampleModal1"> <span style = "color:white">Login/Register</span></a></li>';
+			echo '<li><a data-open= "exampleModal1"> <span color: #0277BD;font-weight: bold;style = "color:white">Login/Register</span></a></li>';
 
 		else
 		{
