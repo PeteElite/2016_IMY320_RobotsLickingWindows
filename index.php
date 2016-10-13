@@ -17,55 +17,51 @@
     
     <style>
   .navbar{
-    margin-bottom:0px;
+    width:100%;
+	background-color:#fff !important;
+	color:black;
   }
     .navbar-inner{
-    min-height: 0px;
+   
   }
   .navbar-brand, .navbar-nav li a {
-    line-height: 60px;
-    height: 60px;
-    padding-top: 0;
+  
   }
   </style>
   
   </head>
   <body  style = "height: 100%; ">
-    <div class="row">
-      <div class="large-12 columns">
-
-
-<div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium" >
+  
+  
+  <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium" >
   <button class="menu-icon" type="button" data-toggle></button>
   <div class="title-bar-title">Menu</div>
 </div>
 
-<div class="top-bar" id="main-menu" style = "background-color:black">
+<div class="top-bar" id="main-menu" >
   <div class="top-bar-left" >
-    <ul class="dropdown menu" data-dropdown-menu style = "color: white;background-color:black">
-      <li class="menu-text">SPCA</li>
+  
+    <ul class="dropdown menu" data-dropdown-menu >
+	<li style="color:#2199e8; background-color:#2199e8"> <span style="color:#2199e8; background-color:#2199e8"> -------------- --------------  --------------  --------------  --------------   </span></li>
+	  <li class="menu-text"></li>
+	  <li class="menu-text"><img style="padding:0px;" height="30px"width="100px"src="Pictures/logo.png" alt="probs"/></li>
     </ul>
   </div>
-  <div class="top-bar-right" >
-    <ul class="menu" data-responsive-menu="drilldown medium-dropdown" style = "background-color:black">
-     	<li><a href="index.php"><span style = "color: white">Home</span></a></li>
-	<li ><a href="about.php"><span style = "color: white">About Us</span></a></li>
-	<li><a href="contact.php"><span style = "color: white">Contact Us</span></a></li>
-	<?php
-		session_start();
-		if (!isset($_SESSION["username"]))
-			echo '<li><a data-open= "exampleModal1"> <span style = "color:white">Login/Register</span></a></li>';
+  <div class="top-bar-right"style="padding-top:6px;" >
+    <ul class="menu" data-responsive-menu="drilldown medium-dropdown">
+     <li class="barItem"><a href="index.php" class="active"><span >Home</span></a></li>
+	<li class="barItem"><a href="about.php"><span>About Us</span></a></li>
+	<li class="barItem"><a href="contact.php"><span >Contact Us</span></a></li>
+	<li style="color:#2199e8; background-color:#2199e8"> <span style="color:#2199e8; background-color:#2199e8"> ------------- --------------  --------------  --------------  --------------   </span></li>
 
-		else
-		{
-			echo '<li><a href="files.php"> <span style = "color:white">Files</span></a></li>';
-			echo '<li><a href="Calender.php"> <span style = "color:white">Calendar</span></a></li>';
-			echo '<li><a href="logout.php"> <span style = "color:white">Logout</span></a></li>';
-		}
-	?>
     </ul>
   </div>
 </div>
+    <div class="row">
+      <div class="large-12 columns">
+
+
+
 <br>
 
 <div >
@@ -423,6 +419,12 @@
         $(document).foundation();
       })
     </script>
+<footer>
 
+  <div style="background-color:#2199e8;"class="small-12 large-12 columns"><img style="padding:0px;" height="30px"width="100px"src="Pictures/logo.png" alt="probs"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tel: 012 358 9999 &nbsp;&nbsp;&nbsp;&nbsp;	Address: Petroleum St, Pretoria, 0127</p></div>
+                       
+            
+
+</footer><!-- /.footer -->
   </body>
 </html>
