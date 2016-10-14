@@ -1,6 +1,7 @@
 <?php
-	require "connect.php";
 	session_start();
+	require "connect.php";
+	
 	$name = $_SESSION["username"];
 	$pass =$_SESSION["pass"];
 	$email =$_SESSION["email"];
@@ -13,10 +14,10 @@
 			$Username = $name;
 			$Password = $pass;
 			$Email = $email;
-			$Title= "admin";
+			$Title= "Admin";
 			mysqli_stmt_execute($result);
 			
-			header('Location: ' . $_SERVER['HTTP_REFERER']);
+			header('Location: index.php');
 			mysqli_close($conn);
 			die();
 		}

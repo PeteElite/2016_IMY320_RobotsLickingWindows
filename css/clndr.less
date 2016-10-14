@@ -15,9 +15,8 @@
   -webkit-box-sizing: border-box;
 }
 
-body
-{
-  font-family: Inconsolata, Monaco, 'Andale Mono', Courier;
+#full-clndr {
+  
   font-size: 18px;
   color: #212121;
 
@@ -28,6 +27,12 @@ body
     text-shadow: 1px 1px 1px #212121;
   }
 }
+#event-listing {
+  width:35% !important;
+}
+
+
+
 
 p
 {
@@ -40,20 +45,6 @@ p + h3
   margin-top: 3em;
 }
 
-a
-{
-  text-decoration: none;
-  background-color: @light-gray;
-  color: @dark-blue;
-  padding: 0 2px;
-  border-radius: 2px;
-  .transition(background-color 0.2s, color 0.4s;);
-  &:hover
-  {
-    background-color: lighten(@blue, 10%);
-    color: #212121;
-  }
-}
 
 span.code
 {

@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!doctype html>
 <html lang="en" dir="ltr" style = "height: 100%">
   <head>
@@ -13,23 +14,6 @@
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
-    
-    <!doctype html>
-<html lang="en" dir="ltr" style = "height: 100%">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-      <script src="./jquery-2.1.3.min.js"></script>
-      <title>SPCA Homepage</title>
-    <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/app.css">
-     <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>
-    
 
     <style>
   .navbar{
@@ -47,50 +31,58 @@
   
   </head>
   <body  style = "height: 100%; ">
-    <div class="row">
-      <div class="large-12 columns">
-
-
+ 
 <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium" >
   <button class="menu-icon" type="button" data-toggle></button>
   <div class="title-bar-title">Menu</div>
 </div>
 
-<div class="top-bar" id="main-menu" style = "background-color:black">
+<div class="top-bar" id="main-menu" >
   <div class="top-bar-left" >
-    <ul class="dropdown menu" data-dropdown-menu style = "color: white;background-color:black">
-      <li class="menu-text">SPCA</li>
+  
+    <ul class="dropdown menu" data-dropdown-menu >
+	
+	  <li class="menu-text"></li>
+	  <li class="menu-text"><img style="padding:0px;" height="30px"width="100px"src="Pictures/logo.png" alt="probs"/></li>
     </ul>
   </div>
-  <div class="top-bar-right" >
-    <ul class="menu" data-responsive-menu="drilldown medium-dropdown" style = "background-color:black">
-     	<li><a href="index.php"><span style = "color: white" >Home</span></a></li>
-	<li><a href="news.php"><span style = "color: #0277BD;font-weight: bold">News</span></a></li>
-	<li ><a href="about.php"><span style = "color: white">About Us</span></a></li>
-	<li><a href="contact.php"><span style = "color: white">Contact Us</span></a></li>
-	<?php
-		session_start();
+  <div class="top-bar-right"style="padding-top:6px;" >
+    <ul class="menu" data-responsive-menu="drilldown medium-dropdown">
+     <li class="barItem"><a href="index.php" ><span >Home</span></a></li>
+	<li class="barItem"><a href="about.php"><span>About Us</span></a></li>
+	
+	<li class="barItem"><a href="contact.php"><span >Contact Us</span></a></li>
+	<li  class="barItem"><a href="news.php" class="active"> <span style >News</span></a></li>
+	
+		<?php
 		if (!isset($_SESSION["username"]))
-			echo '<li><a data-open= "exampleModal1"> <span style = "color:white">Login/Register</span></a></li>';
+			echo '<li  class="barItem"><a data-open= "exampleModal1"> <span style = "color:white">Login/Register</span></a></li>';
 
 		else
 		{
-			echo '<li><a href="files.php"> <span style = "color:white">Files</span></a></li>';
-			echo '<li><a href="Calender.php"> <span style = "color:white">Calendar</span></a></li>';
-			echo '<li><a href="logout.php"> <span style = "color:white">Logout</span></a></li>';
+			echo '<li  class="barItem"><a href="files.php"> <span style = "color:white">Files</span></a></li>';
+			echo '<li  class="barItem"><a href="logout.php"> <span style = "color:white">Logout</span></a></li>';
 		}
 	?>
+
     </ul>
   </div>
 </div>
 <br>
-
+ <?php
+  
+   if (isset($_SESSION["username"]))
+  
+			echo '<a data-open="AddNews" ><input type="submit" class="button" value="ADD NEWS EVENT"></a>';
+ ?>
 
  
+ <div class="row">
+      <div class="large-12 columns">
 
 
-  <div style = "  position: relative; width: 100%; height: 100%;overflow: auto;">
-  <p style = "width: 100%;"> <span style = "font-size: 30px">News:</span></p>
+  <div style = "  position: relative; width: 100%; height: 100%;">
+  <p style = "width: 100%;"> <span style = "font-size: 30px;">News</span></p>
 
 
 <?php
@@ -111,8 +103,7 @@
 			}
 		}
 
-		if (isset($_SESSION["username"]))
-			echo '<a data-open="AddNews"><input type="submit" class="btn btn-primary btn-block" value="ADD NEWS EVENT"></a>';
+		
 	?>
 
 </div>
@@ -348,4 +339,7 @@
     </script>
 
   </body>
+  <footer>
+    <div style="background-color:#2199e8;" class="small-12 large-12 columns"><img style="padding:0px;" height="30px" width="100px"src="Pictures/logo.png" alt="probs"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tel: 012 358 9999 &nbsp;&nbsp;&nbsp;&nbsp;  Address: Petroleum St, Pretoria, 0127</p></div>
+  </footer>
 </html>

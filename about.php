@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!doctype html>
 
 <html lang="en" dir="ltr">
@@ -13,12 +14,14 @@
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
   </head>
-  <body>
+  <body style="background-image:url(puppy.jpg); background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; ">
  <div class="top-bar" id="main-menu" >
   <div class="top-bar-left" >
   
     <ul class="dropdown menu" data-dropdown-menu >
-	<li style="color:#2199e8; background-color:#2199e8"> <span style="color:#2199e8; background-color:#2199e8"> -------------- --------------  --------------  --------------  --------------   </span></li>
+	
 	  <li class="menu-text"></li>
 	  <li class="menu-text"><img style="padding:0px;" height="30px"width="100px"src="Pictures/logo.png" alt="probs"/></li>
     </ul>
@@ -28,7 +31,22 @@
      <li class="barItem"><a href="index.php" ><span >Home</span></a></li>
 	<li class="barItem"><a href="about.php" class="active"><span>About Us</span></a></li>
 	<li class="barItem"><a href="contact.php"><span >Contact Us</span></a></li>
-	<li style="color:#2199e8; background-color:#2199e8"> <span style="color:#2199e8; background-color:#2199e8"> ------------- --------------  --------------  --------------  --------------   </span></li>
+  <?php
+    
+
+    if (!isset($_SESSION["username"])) {
+      echo '<li class="barItem"><a data-open= "exampleModal1"> <span>Login/Register</span></a></li>';
+       
+    }
+
+    else
+    {
+      echo '<li class="barItem"><a href="news.php"> <span>News</span></a></li>';
+      echo '<li class="barItem"><a href="files.php"> <span >Files</span></a></li>';
+      echo '<li class="barItem"><a href="logout.php"> <span>Logout</span></a></li>';
+    }
+  ?>
+	
 
     </ul>
   </div>
@@ -43,8 +61,8 @@
       
       
       
-      <div class="row">
-          <div class="large-6 columns">
+      <div class="row" >
+          <div class="large-6 columns" >
               <h3>ABOUT US</h3>
               <p>Established in 1872, the Cape of Good Hope SPCA (Society for the Prevention of Cruelty to Animals) is the founding society of the SPCA movement in South Africa and is the oldest animal welfare organisation in the country. A registered non-profit organisation (NPO 003-244) and Public Benefit Organisation (PBO 930004317), the society relies on the support of concerned individuals and corporates to continue operating.</p>
               <p>We are affiliated to the Royal Society for the Protection of Animals (RSPCA) and are Executive Members of the National Council of SPCAs South Africa (NSPCA), and previously a member of the World Society for the Protection of Animals (WSPA) before it’s dissolution.</p>
@@ -55,7 +73,7 @@
           </div>
           <div class="large-6 columns">
                
-                <img src= "puppy.jpg">
+                
               
           </div>
       </div>
@@ -218,7 +236,8 @@
       </div>
 
     </div>
-
+    <br><br>
+   
     <script>
       $(document).ready(function() {
         $(document).foundation();
@@ -226,11 +245,5 @@
     </script>
 
   </body>
-<footer>
-
-  <div style="background-color:#2199e8;"class="small-12 large-12 columns"><img style="padding:0px;" height="30px"width="100px"src="Pictures/logo.png" alt="probs"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tel: 012 358 9999 &nbsp;&nbsp;&nbsp;&nbsp;	Address: Petroleum St, Pretoria, 0127</p></div>
-                       
-            
-
-</footer><!-- /.footer -->
+<footer> <div style="background-color:#2199e8;"class="small-12 large-12 columns"><img style="padding:0px;" height="30px"width="100px"src="Pictures/logo.png" alt="probs"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tel: 012 358 9999 &nbsp;&nbsp;&nbsp;&nbsp;  Address: Petroleum St, Pretoria, 0127</p></div></footer>
 </html>

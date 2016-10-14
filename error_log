@@ -1,0 +1,107 @@
+[13-Oct-2016 21:26:22 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/appsoxkb/public_html/connect.php on line 6
+[13-Oct-2016 21:26:22 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/appsoxkb/public_html/index.php on line 129
+[13-Oct-2016 21:27:42 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/appsoxkb/public_html/connect.php on line 6
+[13-Oct-2016 21:27:42 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/appsoxkb/public_html/index.php on line 129
+[13-Oct-2016 21:28:12 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/appsoxkb/public_html/connect.php on line 6
+[13-Oct-2016 21:28:12 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/appsoxkb/public_html/index.php on line 129
+[13-Oct-2016 21:44:10 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/appsoxkb/public_html/files.php:55) in /home/appsoxkb/public_html/files.php on line 56
+[13-Oct-2016 21:44:10 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/appsoxkb/public_html/files.php:55) in /home/appsoxkb/public_html/files.php on line 56
+[13-Oct-2016 21:44:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/appsoxkb/public_html/files.php:55) in /home/appsoxkb/public_html/files.php on line 72
+[13-Oct-2016 21:45:24 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/appsoxkb/public_html/files.php:55) in /home/appsoxkb/public_html/files.php on line 56
+[13-Oct-2016 21:45:24 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/appsoxkb/public_html/files.php:55) in /home/appsoxkb/public_html/files.php on line 56
+[13-Oct-2016 21:45:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/appsoxkb/public_html/files.php:55) in /home/appsoxkb/public_html/files.php on line 72
+[13-Oct-2016 21:45:53 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/appsoxkb/public_html/files.php:55) in /home/appsoxkb/public_html/files.php on line 56
+[13-Oct-2016 21:45:53 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/appsoxkb/public_html/files.php:55) in /home/appsoxkb/public_html/files.php on line 56
+[13-Oct-2016 21:45:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/appsoxkb/public_html/files.php:55) in /home/appsoxkb/public_html/files.php on line 72
+[13-Oct-2016 21:46:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/appsoxkb/public_html/files.php:55) in /home/appsoxkb/public_html/files.php on line 72
+[13-Oct-2016 21:47:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/appsoxkb/public_html/files.php:70) in /home/appsoxkb/public_html/files.php on line 72
+[13-Oct-2016 22:40:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/appsoxkb/public_html/upload.php:13) in /home/appsoxkb/public_html/upload.php on line 14
+[13-Oct-2016 23:44:35 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/appsoxkb/public_html/news.php:71) in /home/appsoxkb/public_html/news.php on line 72
+[13-Oct-2016 23:44:35 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/appsoxkb/public_html/news.php:71) in /home/appsoxkb/public_html/news.php on line 72
+[14-Oct-2016 00:49:54 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/appsoxkb/public_html/index.php:55) in /home/appsoxkb/public_html/index.php on line 56
+[14-Oct-2016 00:49:54 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/appsoxkb/public_html/index.php:55) in /home/appsoxkb/public_html/index.php on line 56
+[14-Oct-2016 00:50:32 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/appsoxkb/public_html/index.php:2) in /home/appsoxkb/public_html/index.php on line 3
+[14-Oct-2016 00:50:32 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/appsoxkb/public_html/index.php:2) in /home/appsoxkb/public_html/index.php on line 3
+[14-Oct-2016 00:51:02 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/appsoxkb/public_html/index.php:2) in /home/appsoxkb/public_html/index.php on line 3
+[14-Oct-2016 00:51:02 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/appsoxkb/public_html/index.php:2) in /home/appsoxkb/public_html/index.php on line 3
+[14-Oct-2016 01:29:31 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/appsoxkb/public_html/index.php on line 53
+[14-Oct-2016 01:31:11 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/appsoxkb/public_html/index.php on line 53
+[14-Oct-2016 01:31:45 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/appsoxkb/public_html/index.php on line 53
+[14-Oct-2016 01:33:08 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1044): Access denied for user 'appsoxkb_nitrolx'@'localhost' to database '320' in /home/appsoxkb/public_html/index.php on line 51
+[14-Oct-2016 01:37:09 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/appsoxkb/public_html/about.php:33) in /home/appsoxkb/public_html/about.php on line 34
+[14-Oct-2016 01:38:39 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/appsoxkb/public_html/contact.php:53) in /home/appsoxkb/public_html/contact.php on line 54
+[14-Oct-2016 01:41:13 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/appsoxkb/public_html/files.php:49) in /home/appsoxkb/public_html/files.php on line 50
+[14-Oct-2016 01:58:09 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/appsoxkb/public_html/send.php:2) in /home/appsoxkb/public_html/send.php on line 4
+[14-Oct-2016 02:05:40 UTC] PHP Fatal error:  Call to undefined function start_session() in /home/appsoxkb/public_html/send.php on line 1
+[14-Oct-2016 02:10:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/appsoxkb/public_html/send.php:3) in /home/appsoxkb/public_html/send.php on line 32
+[14-Oct-2016 02:11:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/appsoxkb/public_html/send.php:3) in /home/appsoxkb/public_html/send.php on line 32
+[14-Oct-2016 02:12:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/appsoxkb/public_html/send.php:3) in /home/appsoxkb/public_html/send.php on line 31
+[14-Oct-2016 02:46:45 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/appsoxkb/public_html/news.php on line 106
+[14-Oct-2016 02:46:46 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/appsoxkb/public_html/news.php on line 106
+[14-Oct-2016 02:46:50 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/appsoxkb/public_html/news.php on line 106
+[14-Oct-2016 02:51:40 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/appsoxkb/public_html/news.php:76) in /home/appsoxkb/public_html/news.php on line 77
+[14-Oct-2016 02:52:08 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/appsoxkb/public_html/news.php:76) in /home/appsoxkb/public_html/news.php on line 77
+[14-Oct-2016 02:52:38 UTC] PHP Parse error:  syntax error, unexpected 'en' (T_STRING), expecting ',' or ';' in /home/appsoxkb/public_html/news.php on line 5
+[14-Oct-2016 02:54:11 UTC] PHP Parse error:  syntax error, unexpected 'en' (T_STRING), expecting ',' or ';' in /home/appsoxkb/public_html/news.php on line 5
+[14-Oct-2016 02:54:39 UTC] PHP Parse error:  syntax error, unexpected 'en' (T_STRING), expecting ',' or ';' in /home/appsoxkb/public_html/news.php on line 5
+[14-Oct-2016 02:57:02 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/appsoxkb/public_html/news.php:2) in /home/appsoxkb/public_html/news.php on line 2
+[14-Oct-2016 03:07:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/appsoxkb/public_html/newsUpload.php:30) in /home/appsoxkb/public_html/newsUpload.php on line 38
+[14-Oct-2016 03:08:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/appsoxkb/public_html/newsUpload.php:31) in /home/appsoxkb/public_html/newsUpload.php on line 39
+[14-Oct-2016 03:08:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/appsoxkb/public_html/newsUpload.php:32) in /home/appsoxkb/public_html/newsUpload.php on line 40
+[14-Oct-2016 03:28:28 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user ''@'localhost' (using password: NO) in /home/appsoxkb/public_html/post.php on line 5
+[14-Oct-2016 03:28:28 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/appsoxkb/public_html/post.php on line 5
+[14-Oct-2016 03:28:28 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user ''@'localhost' (using password: NO) in /home/appsoxkb/public_html/post.php on line 6
+[14-Oct-2016 03:28:28 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/appsoxkb/public_html/post.php on line 6
+[14-Oct-2016 03:28:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/appsoxkb/public_html/post.php:5) in /home/appsoxkb/public_html/post.php on line 10
+[14-Oct-2016 03:29:27 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user ''@'localhost' (using password: NO) in /home/appsoxkb/public_html/post.php on line 5
+[14-Oct-2016 03:29:27 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/appsoxkb/public_html/post.php on line 5
+[14-Oct-2016 03:29:27 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user ''@'localhost' (using password: NO) in /home/appsoxkb/public_html/post.php on line 6
+[14-Oct-2016 03:29:27 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/appsoxkb/public_html/post.php on line 6
+[14-Oct-2016 03:29:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/appsoxkb/public_html/post.php:5) in /home/appsoxkb/public_html/post.php on line 10
+[14-Oct-2016 03:30:42 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user ''@'localhost' (using password: NO) in /home/appsoxkb/public_html/post.php on line 5
+[14-Oct-2016 03:30:42 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/appsoxkb/public_html/post.php on line 5
+[14-Oct-2016 03:30:42 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user ''@'localhost' (using password: NO) in /home/appsoxkb/public_html/post.php on line 6
+[14-Oct-2016 03:30:42 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/appsoxkb/public_html/post.php on line 6
+[14-Oct-2016 03:30:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/appsoxkb/public_html/post.php:5) in /home/appsoxkb/public_html/post.php on line 10
+[14-Oct-2016 03:31:35 UTC] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home/appsoxkb/public_html/post.php on line 5
+[14-Oct-2016 03:31:35 UTC] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home/appsoxkb/public_html/post.php on line 6
+[14-Oct-2016 03:31:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/appsoxkb/public_html/post.php:5) in /home/appsoxkb/public_html/post.php on line 10
+[14-Oct-2016 03:33:42 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user ''@'localhost' (using password: NO) in /home/appsoxkb/public_html/post.php on line 5
+[14-Oct-2016 03:33:42 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/appsoxkb/public_html/post.php on line 5
+[14-Oct-2016 03:33:42 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user ''@'localhost' (using password: NO) in /home/appsoxkb/public_html/post.php on line 6
+[14-Oct-2016 03:33:42 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/appsoxkb/public_html/post.php on line 6
+[14-Oct-2016 03:33:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/appsoxkb/public_html/post.php:5) in /home/appsoxkb/public_html/post.php on line 10
+[14-Oct-2016 03:37:15 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user ''@'localhost' (using password: NO) in /home/appsoxkb/public_html/create.php on line 18
+[14-Oct-2016 03:37:15 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/appsoxkb/public_html/create.php on line 18
+[14-Oct-2016 03:37:15 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user ''@'localhost' (using password: NO) in /home/appsoxkb/public_html/create.php on line 19
+[14-Oct-2016 03:37:15 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/appsoxkb/public_html/create.php on line 19
+[14-Oct-2016 03:37:15 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user ''@'localhost' (using password: NO) in /home/appsoxkb/public_html/create.php on line 20
+[14-Oct-2016 03:37:15 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/appsoxkb/public_html/create.php on line 20
+[14-Oct-2016 03:37:15 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user ''@'localhost' (using password: NO) in /home/appsoxkb/public_html/create.php on line 21
+[14-Oct-2016 03:37:15 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/appsoxkb/public_html/create.php on line 21
+[14-Oct-2016 03:37:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/appsoxkb/public_html/create.php:18) in /home/appsoxkb/public_html/create.php on line 36
+[14-Oct-2016 03:41:10 UTC] PHP Warning:  filesize(): stat failed for checkers.jpg in /home/appsoxkb/public_html/download.php on line 12
+[14-Oct-2016 03:41:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/appsoxkb/public_html/download.php:12) in /home/appsoxkb/public_html/download.php on line 12
+[14-Oct-2016 03:41:10 UTC] PHP Warning:  readfile(checkers.jpg): failed to open stream: No such file or directory in /home/appsoxkb/public_html/download.php on line 13
+[14-Oct-2016 03:45:35 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user ''@'localhost' (using password: NO) in /home/appsoxkb/public_html/create.php on line 18
+[14-Oct-2016 03:45:35 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/appsoxkb/public_html/create.php on line 18
+[14-Oct-2016 03:45:35 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user ''@'localhost' (using password: NO) in /home/appsoxkb/public_html/create.php on line 19
+[14-Oct-2016 03:45:35 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/appsoxkb/public_html/create.php on line 19
+[14-Oct-2016 03:45:35 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user ''@'localhost' (using password: NO) in /home/appsoxkb/public_html/create.php on line 20
+[14-Oct-2016 03:45:35 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/appsoxkb/public_html/create.php on line 20
+[14-Oct-2016 03:45:35 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user ''@'localhost' (using password: NO) in /home/appsoxkb/public_html/create.php on line 21
+[14-Oct-2016 03:45:35 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/appsoxkb/public_html/create.php on line 21
+[14-Oct-2016 03:45:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/appsoxkb/public_html/create.php:18) in /home/appsoxkb/public_html/create.php on line 36
+[14-Oct-2016 03:46:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/appsoxkb/public_html/create.php:24) in /home/appsoxkb/public_html/create.php on line 36
+[14-Oct-2016 03:49:04 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/appsoxkb/public_html/events.php on line 10
+[14-Oct-2016 03:49:04 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/appsoxkb/public_html/events.php on line 14
+[14-Oct-2016 03:49:04 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/appsoxkb/public_html/events.php on line 16
+[14-Oct-2016 03:54:35 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/appsoxkb/public_html/events.php on line 10
+[14-Oct-2016 03:54:35 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/appsoxkb/public_html/events.php on line 14
+[14-Oct-2016 03:54:35 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/appsoxkb/public_html/events.php on line 16
+[14-Oct-2016 04:00:09 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/appsoxkb/public_html/events.php on line 10
+[14-Oct-2016 04:00:09 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/appsoxkb/public_html/events.php on line 14
+[14-Oct-2016 04:00:09 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/appsoxkb/public_html/events.php on line 16
+[14-Oct-2016 04:00:44 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/appsoxkb/public_html/events.php on line 10
+[14-Oct-2016 04:00:44 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/appsoxkb/public_html/events.php on line 14
+[14-Oct-2016 04:00:44 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/appsoxkb/public_html/events.php on line 16

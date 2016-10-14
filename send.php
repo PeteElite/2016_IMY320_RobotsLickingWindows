@@ -1,12 +1,13 @@
+<?php session_start();
 
-<?php
+
 require 'PHPMailer-master/PHPMailerAutoload.php';
-session_start();
+
 $message = $_SESSION["message"];
 $To = $_SESSION["To"];
 
 $mail = new PHPMailer;
-$mail->isSMTP();                                      						
+                                   						
 $mail->Host = 'smtp.gmail.com';  							
 $mail->SMTPAuth = true;                          					
 $mail->Username = 'corneels.els@gmail.com';               	
@@ -26,7 +27,4 @@ $mail->AltBody = $message;
 if(!$mail->send()) {
     echo 'Message could not be sent.';
     echo 'Mailer Error: ' . $mail->ErrorInfo;
-} else {
-	header("location:step2.html");
-  
-}
+} else { header("location:step2.html");} ?>

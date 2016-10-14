@@ -1,4 +1,4 @@
-
+<?php   session_start(); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -40,7 +40,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
   <div class="top-bar-left" >
   
     <ul class="dropdown menu" data-dropdown-menu >
-	<li style="color:#2199e8; background-color:#2199e8"> <span style="color:#2199e8; background-color:#2199e8"> -------------- --------------  --------------  --------------  --------------   </span></li>
+	
 	  <li class="menu-text"></li>
 	  <li class="menu-text"><img style="padding:0px;" height="30px"width="100px"src="Pictures/logo.png" alt="probs"/></li>
     </ul>
@@ -50,7 +50,18 @@ google.maps.event.addDomListener(window, 'load', initialize);
      <li class="barItem"><a href="index.php" ><span >Home</span></a></li>
 	<li class="barItem"><a href="about.php"><span>About Us</span></a></li>
 	<li class="barItem"><a href="contact.php" class="active"><span >Contact Us</span></a></li>
-	<li style="color:#2199e8; background-color:#2199e8"> <span style="color:#2199e8; background-color:#2199e8"> ------------- --------------  --------------  --------------  --------------   </span></li>
+	<?php
+  
+    if (!isset($_SESSION["username"]))
+      echo '<li class="barItem"><a data-open= "exampleModal1"> <span>Login/Register</span></a></li>';
+
+    else
+    {
+      echo '<li class="barItem"><a href="news.php"> <span>News</span></a></li>';
+      echo '<li class="barItem"><a href="files.php"> <span >Files</span></a></li>';
+      echo '<li class="barItem"><a href="logout.php"> <span>Logout</span></a></li>';
+    }
+  ?>
     </ul>
   </div>
 </div>
@@ -59,18 +70,18 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 
 
-	<h1>Map to our location: </h1>
+	<h1 style="text-align:center;">Map to our location </h1>
 	<div id="googleMap" style="width:100%;height:380px;">
   </div> 
   <br>
-  <div style = "width: 50%; background-color:#0277BD; color: white;padding:1%; font-size: 20px; float: left; height: 50%">
+  <div  class="card" style = "width: 50%; background-color:#0277BD; color: white;padding:1%; font-size: 20px; float: left; height: 50%">
 			<p> <h3>Address: </h3>316 Petroleum Street, Waltloo, Tshwane. </p> 
 			<p> <h3>Phone: </h3>  012 803 5219 / 083 268 5613 / 071 698 7294 </p> 
 			<p> <h3>Email Address: </h3>reception@spcapta.org.za </p>
 	</div>
 
   <div style = "width: 40%; float: right"> 
-  <img src = "s.jpg" alt = "spca image"> 
+  <img src = "s.png" alt = "spca image"> 
   </div>
   
   
@@ -236,7 +247,8 @@ google.maps.event.addDomListener(window, 'load', initialize);
       </div>
 
     </div>
-  
+    <br><br>
+    
   
   
   
@@ -249,11 +261,5 @@ google.maps.event.addDomListener(window, 'load', initialize);
     </script>
 
 </body>
-<footer>
-
-  <div style="background-color:#2199e8;"class="small-12 large-12 columns"><img style="padding:0px;" height="30px"width="100px"src="Pictures/logo.png" alt="probs"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tel: 012 358 9999 &nbsp;&nbsp;&nbsp;&nbsp;	Address: Petroleum St, Pretoria, 0127</p></div>
-                       
-            
-
-</footer><!-- /.footer -->
+<footer> <div style="background-color:#2199e8;"class="small-12 large-12 columns"><img style="padding:0px;" height="30px"width="100px"src="Pictures/logo.png" alt="probs"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tel: 012 358 9999 &nbsp;&nbsp;&nbsp;&nbsp;  Address: Petroleum St, Pretoria, 0127</p></div> </footer>
 </html>
